@@ -22,9 +22,14 @@ sh.getMeasures(data)
 #n_stats.probplot(data, dist='norm',plot=pyplot)
 #pyplot.show()
 
-# box
+#Plots
 ph = PlotHandler()
+# box
 ph.box(data, "Pre Test - Metric")
+# histogram
+#ph.histogram(data)
+# quantile
+#ph.quantile(data)
 
 # mean xxxx
 # median xxxx
